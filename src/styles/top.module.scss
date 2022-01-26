@@ -1,0 +1,81 @@
+$black : #31373D;
+
+.main {
+    text-align: center;
+    min-height: 97vh;
+    margin-top: 10px;
+    .button {
+        text-align: center;
+        width: 130px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        border: none;
+        margin: 15px;
+        cursor: pointer;
+        span {
+            font-size: 15px;
+        }
+    }
+    .notify {
+        text-align: center;
+        margin: auto;
+        width: fit-content;
+        overflow: hidden;
+    }
+    .detail {
+        text-align: left;
+        margin: auto;
+        width: fit-content;
+        min-width: 220px;
+        overflow: hidden;
+        h2 {
+            margin: 10px;
+            margin-left: 0;
+        }
+        p {
+            cursor: pointer;
+        }
+        .link {
+            margin: 15px;
+            margin-left: 0;
+            width: fit-content;
+            height: fit-content;
+            min-width: 220px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .link:hover {
+            background-color: #f2f2f2;
+        }
+        .link a {
+            color: #141418;
+            text-decoration: none;
+            margin-left: 0;
+            padding: 10px;
+            line-height: 35px;
+        }
+    }
+    ul {
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #fff;
+        width: fit-content;
+        a {
+            text-decoration: none;
+        }
+        li {
+            text-align: left;
+            min-width: 220px;
+            margin: 10px;
+            padding: 10px;
+            color: #141418;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        li:hover {
+            background-color: #f2f2f2;
+        }
+    }
+}
