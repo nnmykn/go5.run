@@ -15,7 +15,7 @@ const Page = () => {
     return (
         <div>
             <Head>
-                <link rel="canonical" href="https://kan.run/"/>
+                <link rel="canonical" href="https://go5.run/"/>
                 <title key="site:title">Go5 Lab. | 🧪We are an organization that develops a variety of web applications.</title>
             </Head>
             <main className={styles.main}>
