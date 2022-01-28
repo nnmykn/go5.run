@@ -26,6 +26,11 @@ const Page = () => {
                 </div>
                 <div></div>
                 <div className={styles.detail}>
+                <Link href="https://head.go5.run/">
+                    <div className={styles.link}>
+                    <a>🕹️Head Generator</a>
+                    </div>
+                    </Link>
                     <Link href="https://status.go5.run/">
                     <div className={styles.link}>
                     <a>👣MyStatus</a>
