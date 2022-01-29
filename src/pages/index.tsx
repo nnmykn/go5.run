@@ -26,7 +26,12 @@ const Page = () => {
                 </div>
                 <div></div>
                 <div className={styles.detail}>
-                <Link href="https://head.go5.run/">
+                    <Link href="https://tweet.go5.run/">
+                    <div className={styles.link}>
+                    <a>🐤#TweetMaker</a>
+                    </div>
+                    </Link>
+                    <Link href="https://head.go5.run/">
                     <div className={styles.link}>
                     <a>🕹️Head Generator</a>
                     </div>
