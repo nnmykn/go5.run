@@ -36,11 +36,6 @@ const Page = () => {
                     <a>🐤#TweetMaker</a>
                     </div>
                     </Link>
-                    <Link href="https://head.go5.run/">
-                    <div className={styles.link}>
-                    <a>🕹️Head Generator</a>
-                    </div>
-                    </Link>
                     <Link href="https://status.go5.run/">
                     <div className={styles.link}>
                     <a>👣MyStatus</a>
